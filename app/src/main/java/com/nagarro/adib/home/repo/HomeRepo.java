@@ -1,8 +1,6 @@
 package com.nagarro.adib.home.repo;
 
 import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
-
 import com.nagarro.adib.App;
 import com.nagarro.adib.core.BaseRepo;
 import com.nagarro.adib.home.db.HeroDao;
@@ -41,4 +39,6 @@ public class HomeRepo implements BaseRepo {
 
         return heroDao.getHero(name);
     }
+
+
 }

@@ -1,9 +1,5 @@
 package com.nagarro.adib.home.network;
 
-
-
-import android.arch.lifecycle.MutableLiveData;
-
 import com.nagarro.adib.App;
 import com.nagarro.adib.core.ConnectionFactory;
 import com.nagarro.adib.home.db.HeroDao;
@@ -11,7 +7,7 @@ import com.nagarro.adib.home.model.HeroModel;
 
 import java.util.List;
 
-import javax.inject.Inject;
+
 
 import retrofit2.Call;
 import retrofit2.Callback;

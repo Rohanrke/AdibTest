@@ -16,7 +16,7 @@ import java.util.List;
 public interface HeroDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void save(HeroModel user);
+    HeroModel save(HeroModel user);
 
     @Query("SELECT * FROM hero")
     LiveData<List<HeroModel>> load();

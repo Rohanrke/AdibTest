@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
-
-import com.nagarro.adib.R;
 import com.nagarro.adib.core.BaseActivity;
 import com.nagarro.adib.databinding.HomeActivityBinding;
 import com.nagarro.adib.home.model.HeroModel;
